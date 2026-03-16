@@ -372,7 +372,7 @@
   <main class="flex-1 flex flex-col min-w-0">
     <header class="p-8 lg:px-12 divider-b flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
       <div>
-        <h2 class="text-3xl lg:text-5xl font-extrabold tracking-tight uppercase">Spectral Analysis</h2>
+        <h2 class="text-2xl lg:text-4xl font-extrabold tracking-tight uppercase">Spectral Analysis</h2>
         <p class="font-mono text-xs text-muted mt-3 max-w-xl uppercase tracking-widest">
           Real-time Digital Twin // 256-Sample Window // Fs: 50.0 Hz
         </p>
@@ -386,22 +386,22 @@
       <div class="p-8 lg:p-12 flex flex-col">
         <span class="font-mono text-[10px] text-muted tracking-widest uppercase mb-4">Dominant Frequency</span>
         <div class="flex items-baseline gap-2">
-          <span id="kpiFreq" class="text-6xl lg:text-8xl font-bold tracking-tighter leading-none">--</span>
-          <span class="font-mono text-xl font-bold">Hz</span>
+          <span id="kpiFreq" class="text-5xl lg:text-6xl font-bold tracking-tighter leading-none">--</span>
+          <span class="font-mono text-lg font-bold">Hz</span>
         </div>
       </div>
 
       <div class="p-8 lg:p-12 flex flex-col divider-t md:divider-t-0 md:divider-l">
         <span class="font-mono text-[10px] text-muted tracking-widest uppercase mb-4">Signal-to-Noise (SNR)</span>
         <div class="flex items-baseline gap-2">
-          <span id="kpiSnr" class="text-6xl lg:text-8xl font-bold tracking-tighter leading-none">--</span>
-          <span class="font-mono text-xl font-bold text-muted">dB</span>
+          <span id="kpiSnr" class="text-5xl lg:text-6xl font-bold tracking-tighter leading-none">--</span>
+          <span class="font-mono text-lg font-bold text-muted">dB</span>
         </div>
       </div>
 
       <div id="classificationPanel" class="p-8 lg:p-12 flex flex-col divider-t md:divider-t-0 md:divider-l justify-center relative overflow-hidden transition-colors duration-500">
         <span class="font-mono text-[10px] text-muted tracking-widest uppercase mb-4 relative z-10">Classification</span>
-        <span id="kpiClass" class="text-3xl lg:text-4xl font-bold uppercase leading-none mb-4 relative z-10">Awaiting Stream</span>
+        <span id="kpiClass" class="text-2xl lg:text-3xl font-bold uppercase leading-none mb-4 relative z-10">Awaiting Stream</span>
         <span id="kpiGate" class="font-mono text-[10px] font-bold bg-ink text-paper px-3 py-1.5 self-start tracking-widest relative z-10">
           SNR > 6.0 | DOM > 1.35
         </span>
